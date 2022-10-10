@@ -1,4 +1,8 @@
 <hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<nav style="margin-bottom:50px;">
+  <a style="padding:12px;font-family: cursive;" routerLink="/user">User Details</a>
+  <a style="padding:12px;font-family: cursive;" routerLink="/products">Products</a>
+  <a style="padding:12px;font-family: cursive;" routerLink="/summary">Summary</a>
+</nav>
+
+<router-outlet></router-outlet>
