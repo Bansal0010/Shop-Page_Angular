@@ -1,3 +1,72 @@
-p {
-  font-family: cursive;
+.hover-grad-txt {
+  font-size:100px;
+  text-align:center;
+  color:#191335;
+  background-image:linear-gradient(to right, #191335, #191335);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition:all 0.4s ease-in-out;
 }
+
+.hover-grad-txt:hover {
+  background-image:linear-gradient(to right, #01A5F8, #01BFD8);
+  -webkit-text-fill-color: transparent;
+}
+
+nav{
+  text-align: center;
+  font-size: 30px;
+}
+
+a{
+  background-color:aqua;
+  margin: 15px;
+  border: 2px solid black;
+}
+
+a:hover{
+  background-color: burlywood;
+  color: black;
+}
+
+.animated-text {
+  background-image: -webkit-linear-gradient(rgb(57, 114, 221) 60%, rgb(248, 248, 214) 40%);
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+  font-size: 70px;
+  text-align: center;
+}
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+.animated-text2 {
+  background-image: -webkit-linear-gradient(DarkSalmon 50%, LightYellow 50%);
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+  font-size: 70px;
+  text-align: center;
+}
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+

@@ -8,10 +8,11 @@ import { DataService } from '../data.service';
   styleUrls: [ '../user details/user.component.css' ]
 })
 export class UserComponent {
-  public fisrtname:string=""
+  public firstname:string=""
   public address:string=""
   public mobile:string=""
   public email:string=""
+  public gender:string=""
 
   constructor(private dataService:DataService) { }
 
