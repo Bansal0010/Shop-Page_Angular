@@ -1,3 +1,6 @@
+body{
+  background-image:url(https://images.techhive.com/images/article/2017/05/surface_laptop_group-100720813-orig.jpg);
+}
 .hover-grad-txt {
   font-size:100px;
   text-align:center;
@@ -30,7 +33,7 @@ a:hover{
 }
 
 .animated-text {
-  background-image: -webkit-linear-gradient(rgb(57, 114, 221) 60%, rgb(248, 248, 214) 40%);
+  background-image: -webkit-linear-gradient(rgb(112, 9, 196) 50%, rgb(235, 123, 235) 50%);
   background-size: 100% 50px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -50,7 +53,7 @@ a:hover{
   }
 }
 .animated-text2 {
-  background-image: -webkit-linear-gradient(DarkSalmon 50%, LightYellow 50%);
+  background-image: -webkit-linear-gradient(rgb(17, 170, 37) 50%, rgb(99, 238, 106) 50%);
   background-size: 100% 50px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

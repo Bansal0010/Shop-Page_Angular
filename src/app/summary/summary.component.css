@@ -5,4 +5,27 @@ label {
 }
 p {
   font-family: cursive;
+  color: beige;
+  font-size: 20px;
+}
+
+#para3{
+  font-size: 35px;
+  text-align: center;
+  color: rgb(238, 56, 11);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  border: 2px solid yellow;
+}
+
+p{
+  color: black;
+  font-size: 20px;
+}
+
+.summary1{
+  color: aliceblue;
+}
+
+.summary2{
+  color: chartreuse;
 }

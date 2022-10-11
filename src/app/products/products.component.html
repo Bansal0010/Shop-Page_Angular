@@ -1,11 +1,12 @@
-<p>Please select the language your are intreasted in</p>
+<p>Select the Company you want to Buy the Laptop from:</p>
 <form #productForm="ngForm" (ngSubmit)="onProductSubmit(productForm)">
 <div class="select"style="width:200px;">  
   <select type="text" #name="ngModel" name="selectedItem" [(ngModel)]="selectedItem"> 
-    <option>C</option>
-    <option>Java</option>
-    <option>Python</option>
-    <option>R</option>
+    <option>Apple</option>
+    <option>Lenovo</option>
+    <option>Dell</option>
+    <option>HP</option>
+    <option>Acer</option>
   </select>  
   </div> 
 <button style="position: relative;left: 80px;top: 20px;font-family: cursive;" type="submit">Submit</button>

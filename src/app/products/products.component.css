@@ -15,7 +15,7 @@ select {
   width: 20em;
   height: 3em;
   line-height: 3;
-  background: #2C3E50;
+  background: #0e7ceb;
   overflow: hidden;
   border-radius: .25em;
 }
@@ -46,4 +46,13 @@ select::-ms-expand {
 
 .select:hover::after {
   color: #52f312;
+}
+
+option{
+  font-size: 15px;
+}
+
+p{
+  font-size: 20px;
+  color: rgb(192, 226, 40);
 }
